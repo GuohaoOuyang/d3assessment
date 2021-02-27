@@ -1,0 +1,43 @@
+header {
+    width: 100vw;
+    height: 40px;
+}
+
+.headerNav {
+    display: flex;
+    height: inherit;
+    width: inherit;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background: rgb(48, 111, 191);
+}
+
+.title {
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 6rem;
+    font-weight: 600;
+}
+
+.hNavList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.hNavList > li:first-child > a{
+    font-size: 0.7rem;
+    font-weight: 600;
+    opacity: 0.4;
+    border-right: 1px solid #fff;
+}
+
+.hNavList > li > a {
+    text-decoration: none;
+    padding: 0 1rem; 
+    color: #fff;
+}
