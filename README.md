@@ -1,10 +1,15 @@
 ## Project title
-D3+React Assessment
+D3 + React Assessment
 
 ## Description
-a small assessment that implement area chart and gauge chart interaction with d3 and react
+a small assessment that implement area chart and gauge chart interaction with d3 and react hooks.
+
+## Tech/framework used
+- [React](https://reactjs.org/)
+- [D3](https://d3js.org/)
 
 ### `npm install`
+Install dependencies
 
 ### `npm start`
 
